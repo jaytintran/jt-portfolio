@@ -1,0 +1,103 @@
+import {
+	sleekai,
+	neurai,
+	cineseek,
+	maganime,
+	utube,
+	moviebox,
+	deliverfy,
+	rolexie,
+	travelgeek,
+	eleccar,
+	yummey,
+	elibft,
+} from "../assets/images";
+
+export const projects = [
+	{
+		title: "Neurai",
+		imgSrc: neurai,
+		liveLink: "https://neurai.vercel.app/",
+		githubLink: "https://github.com/jaytintran/neurai",
+		type: "highlighted",
+	},
+	{
+		title: "Sleekai",
+		imgSrc: sleekai,
+		liveLink: "https://sleek-ai-orpin.vercel.app/",
+		githubLink: "https://github.com/jaytintran/sleek-ai",
+		type: "highlighted",
+	},
+	{
+		title: "CineSeek",
+		imgSrc: cineseek,
+		liveLink: "https://cine-seek-six.vercel.app/",
+		githubLink: "https://github.com/jaytintran/cineseek",
+		type: "highlighted",
+	},
+	{
+		title: "Maganime",
+		imgSrc: maganime,
+		liveLink: "https://jaytintran.github.io/maganime",
+		githubLink: "https://github.com/jaytintran/maganime",
+		type: "dev",
+	},
+	{
+		title: "U-Tube",
+		imgSrc: utube,
+		liveLink: "https://jaytintran.github.io/utube-react-app",
+		githubLink: "https://utube-v1.netlify.app/",
+		type: "dev",
+	},
+	{
+		title: "Movie Box",
+		imgSrc: moviebox,
+		liveLink: "https://jaytintran.github.io/movie-box",
+		githubLink: "https://github.com/jaytintran/movie-box",
+		type: "dev",
+	},
+	{
+		title: "Deliverfy",
+		imgSrc: deliverfy,
+		liveLink: "https://jaytintran.github.io/deliverfy",
+		githubLink: "https://github.com/jaytintran/deliverfy",
+		type: "design",
+	},
+	{
+		title: "Rolexie",
+		imgSrc: rolexie,
+		liveLink: "https://jaytintran.github.io/rolexie",
+		githubLink: "https://github.com/jaytintran/rolexie",
+		type: "design",
+	},
+	{
+		title: "Travel Geek",
+		imgSrc: travelgeek,
+		liveLink: "https://jaytintran.github.io/travel-geek",
+		githubLink: "https://github.com/jaytintran/travel-geek",
+		type: "design",
+	},
+	{
+		title: "Elec-car",
+		imgSrc: eleccar,
+		liveLink: "https://jaytintran.github.io/elec-car",
+		githubLink: "https://github.com/jaytintran/elec-car",
+		type: "design",
+	},
+	{
+		title: "Yummey",
+		imgSrc: yummey,
+		liveLink: "https://jaytintran.github.io/yummey",
+		githubLink: "https://github.com/jaytintran/yummey",
+		type: "design",
+	},
+	{
+		title: "Online Library",
+		imgSrc: elibft,
+		liveLink: "https://jaytintran.github.io/e-libft",
+		githubLink: "https://github.com/jaytintran/e-libft",
+		type: "dev",
+	},
+];
+
+export default projects;
