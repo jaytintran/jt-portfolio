@@ -16,10 +16,10 @@ const ContactInfo = ({ icon, title, subtitle, href }) => (
 			className="flex items-center"
 			// className={`uil ${icon} contact__icon}
 		>
-			{icon === "linkedin" && <BiLogoLinkedinSquare size={50} />}
-			{icon === "email" && <BiEnvelope size={50} />}
-			{icon === "github" && <BiLogoGithub size={50} />}
-			{icon === "twitter" && <BiLogoTwitter size={50} />}
+			{icon === "linkedin" && <BiLogoLinkedinSquare size={35} />}
+			{icon === "email" && <BiEnvelope size={35} />}
+			{icon === "github" && <BiLogoGithub size={35} />}
+			{icon === "twitter" && <BiLogoTwitter size={35} />}
 		</a>
 		<div>
 			<a
