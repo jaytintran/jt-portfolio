@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import WorkCard from "../components/ui/WorkCard";
 import projects from "../../src/constants/projects.js";
+import BentoSlide from "../components/ui/BentoSlide";
 
 // Define filter tags
-const FILTERS = ["all", "highlighted", "dev", "design"];
+const FILTERS = ["all", "highlighted", "front-end", "ux/ui"];
 
 const Work = () => {
 	const [activeFilter, setActiveFilter] = useState("highlighted");
@@ -31,17 +32,29 @@ const Work = () => {
 					>
 						{filter === "all"
 							? "All"
+							: filter === "front-end"
+							? "Front-End"
+							: filter === "ux/ui"
+							? "UX/UI"
 							: filter.charAt(0).toUpperCase() + filter.slice(1)}
 					</span>
 				))}
 			</div>
 
 			{/* Projects */}
-			<div className="container  justify-center lg:justify-start grid md:grid-cols-2 lg:grid-cols-3">
+			<div className="container justify-center lg:justify-start grid md:grid-cols-2 lg:grid-cols-3 gap-10">
 				{filteredProjects.map((project, index) => (
 					<WorkCard key={index} project={project} />
 				))}
 			</div>
+
+			{/* Bento Grid */}
+			{/* <div className="container w-full !mt-6">
+				<div className="p-6 bg-[var(--container-color)] rounded-2xl shadow-lg h-[300px] flex items-center justify-center text-white text-xl font-semibold card-animation">
+					Upcoming Project ⭐
+				</div>
+			</div> */}
+			<BentoSlide />
 		</section>
 	);
 };

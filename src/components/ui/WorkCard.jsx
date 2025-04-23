@@ -4,7 +4,7 @@ const WorkCard = ({ project }) => {
 	const { title, imgSrc, liveLink, githubLink } = project;
 
 	return (
-		<div className="work__card !w-full lg:w-fit-content">
+		<div className="work__card !w-full lg:w-fit-content card-animation">
 			<img src={imgSrc} alt={title} className="work__img !w-full" />
 			<h3 className="work__title">{title}</h3>
 			<div className="work__buttons">

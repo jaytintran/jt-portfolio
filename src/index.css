@@ -131,6 +131,10 @@
 
 /* Utility classes */
 @layer utilities {
+	.card-animation {
+		@apply hover:scale-110 transition-all ease-in-out duration-300;
+	}
+
 	.container {
 		max-width: 968px;
 		margin-left: 1rem;
