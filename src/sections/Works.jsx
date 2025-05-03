@@ -4,7 +4,8 @@ import { projects } from "../../src/constants/projects.js";
 import BentoSlide from "../components/ui/BentoSlide";
 
 // Define filter tags
-const FILTERS = ["all", "highlighted", "front-end", "ux/ui", "mern"];
+// const FILTERS = ["all", "highlighted", "front-end", "ux/ui", "mern"];
+const FILTERS = ["highlighted", "front-end", "ux/ui", "mern"];
 
 const Work = () => {
 	const [activeFilter, setActiveFilter] = useState("highlighted");
