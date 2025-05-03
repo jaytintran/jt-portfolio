@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import WorkCard from "../components/ui/WorkCard";
-import projects from "../../src/constants/projects.js";
+import { projects } from "../../src/constants/projects.js";
 import BentoSlide from "../components/ui/BentoSlide";
 
 // Define filter tags
-const FILTERS = ["all", "highlighted", "front-end", "ux/ui"];
+const FILTERS = ["all", "highlighted", "front-end", "ux/ui", "mern"];
 
 const Work = () => {
 	const [activeFilter, setActiveFilter] = useState("highlighted");
@@ -36,6 +36,8 @@ const Work = () => {
 							? "Front-End"
 							: filter === "ux/ui"
 							? "UX/UI"
+							: filter === "mern"
+							? "MERN"
 							: filter.charAt(0).toUpperCase() + filter.slice(1)}
 					</span>
 				))}

@@ -11,6 +11,7 @@ import {
 	eleccar,
 	yummey,
 	elibft,
+	clicknshop,
 } from "../assets/images";
 
 export const projects = [
@@ -20,6 +21,13 @@ export const projects = [
 		liveLink: "https://neurai.vercel.app/",
 		githubLink: "https://github.com/jaytintran/neurai",
 		type: "highlighted",
+	},
+	{
+		title: "Neurai",
+		imgSrc: neurai,
+		liveLink: "https://neurai.vercel.app/",
+		githubLink: "https://github.com/jaytintran/neurai",
+		type: "mern",
 	},
 	{
 		title: "Sleekai",
@@ -98,6 +106,18 @@ export const projects = [
 		githubLink: "https://github.com/jaytintran/e-libft",
 		type: "front-end",
 	},
+	{
+		title: "ClicknShop",
+		imgSrc: clicknshop,
+		liveLink: "https://click-n-shop-mern-stack.onrender.com/",
+		githubLink: "https://github.com/jaytintran/full-stack-simple-product-store",
+		type: "mern",
+	},
+	{
+		title: "ClicknShop",
+		imgSrc: clicknshop,
+		liveLink: "https://click-n-shop-mern-stack.onrender.com/",
+		githubLink: "https://github.com/jaytintran/full-stack-simple-product-store",
+		type: "highlighted",
+	},
 ];
-
-export default projects;

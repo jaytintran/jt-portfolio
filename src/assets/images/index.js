@@ -10,6 +10,7 @@ import eleccar from "./elec-car.png";
 import deliverfy from "./deliverfy.png";
 import elibft from "./e-libft.png";
 import yummey from "./yummey.png";
+import clicknshop from "./click-n-shop.png";
 
 export {
 	yummey,
@@ -24,4 +25,5 @@ export {
 	eleccar,
 	deliverfy,
 	elibft,
+	clicknshop,
 };
